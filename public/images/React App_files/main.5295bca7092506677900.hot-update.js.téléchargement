@@ -1,0 +1,22 @@
+webpackHotUpdate("main",{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/Header.css":
+/*!**************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Components/Header.css ***!
+  \**************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".header{\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n    flex-wrap: wrap;\r\n    width: 100%;\r\n}\r\n#logo{\r\n    width:10rem;\r\n    margin-left: 9rem;\r\n}\r\n\r\n.header>ul{\r\n    display: flex;\r\n    flex-direction: row;\r\n    margin-right: 2rem;\r\n    flex-wrap: wrap;\r\n}\r\n.header>ul>li{\r\n    margin-right: 2rem;\r\n    list-style-type: none;\r\n    width: min-content;\r\n}\r\n.header>ul>li>a{\r\n    text-decoration: none;\r\n    color: black;\r\n    font-size: 2rem;\r\n    font-weight: bold;\r\n    letter-spacing: .1rem;\r\n    \r\n    text-overflow: clip;\r\n}\r\n.MuiSvgIcon-root{\r\n    display: none !important;\r\n}\r\n.swiper-button-next{\r\n    margin-left: 4rem;\r\n    \r\n}\r\n.swiper-button-prev{\r\n    margin-right: 9rem;\r\n}\r\n@media screen and (max-width:655px){\r\n    .header>ul>li>a{\r\n        \r\n        font-size: 1.5rem;\r\n        \r\n    }\r\n    .header>ul{\r\n        margin-right: 0;\r\n    }\r\n}\r\n\r\n@media screen and (max-width:550px){\r\n    .MuiSvgIcon-root{\r\n        display: inline-block !important;\r\n        position: absolute;\r\n        top: 2rem;\r\n        right: 5rem;\r\n    }\r\n    .header{\r\n        flex-direction: column;\r\n    }\r\n    .header>ul{\r\n        display: flex;\r\n        flex-direction: row;\r\n        margin-right: 0;\r\n        flex-wrap: wrap;\r\n        align-items: center;\r\n        justify-content: center;\r\n        align-items: center;\r\n        margin-bottom: 2rem;\r\n    }\r\n    #logo{\r\n        margin-left: 0;\r\n    }\r\n}", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ })
+
+})
+//# sourceMappingURL=main.5295bca7092506677900.hot-update.js.map

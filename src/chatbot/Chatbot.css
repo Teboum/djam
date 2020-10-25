@@ -1,0 +1,82 @@
+.MuiSvgIcon-root {
+  font-size: 32px;
+}
+.rsc {
+  position: absolute;
+  bottom: 8rem;
+  right: 1rem;
+  z-index: 4;
+}
+.displayChat {
+  display: block;
+}
+.chaticonn {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  height: min-content;
+}
+.arrow_box {
+  position: absolute;
+  bottom: 0rem;
+  right: 10rem;
+  width: 8rem;
+  background: #88b7d5;
+  border: 4px solid #c2e1f5;
+  -webkit-animation: change-color 1s linear 0s 5 normal;
+  -moz-animation: change-color 1s linear 0s 5 normal;
+  -ms-animation: change-color 1s linear 0s 5 normal;
+  animation: change-color 1s linear 0s 5 normal;
+}
+.arrow_box:after,
+.arrow_box:before {
+  left: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: "";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.arrow_box:after {
+  border-color: rgba(136, 183, 213, 0);
+  border-left-color: #88b7d5;
+  border-width: 30px;
+  margin-top: -30px;
+}
+.arrow_box:before {
+  border-color: rgba(194, 225, 245, 0);
+  border-left-color: #c2e1f5;
+  border-width: 36px;
+  margin-top: -36px;
+}
+
+@-webkit-keyframes change-color {
+  0% {
+    color: green;
+  }
+  100% {
+    color: red;
+  }
+}
+
+@keyframes change-color {
+  0% {
+    color: green;
+  }
+  100% {
+    color: red;
+  }
+}
+@media screen and (max-width: 934px) {
+  .rsc {
+    top: -0.4rem;
+  }
+  .chaticonn {
+    position: fixed;
+    top: 8rem !important;
+    right: 8rem;
+  }
+}

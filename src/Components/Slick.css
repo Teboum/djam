@@ -1,0 +1,62 @@
+.slick-box {
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+}
+.slick-box > h2 {
+  position: absolute;
+  z-index: 2;
+  color: #7c1f1f;
+  font-weight: bolder;
+  font-size: 3.2rem;
+  margin-left: 5rem;
+  margin-top: 1rem;
+  text-decoration: underline white solid;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+@keyframes glow {
+  from {
+    text-shadow: 0 0 20px #0f2629;
+  }
+  to {
+    text-shadow: 0 0 30px orange, 0 0 10px orange;
+  }
+}
+
+.slick-title {
+  color: #7c1f1f;
+  font-weight: bold;
+  font-size: 2rem;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+.swiper-container {
+  box-sizing: border-box;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 0.5rem;
+}
+.swiper-elem {
+  max-width: 72rem;
+
+  overflow-y: scroll;
+}
+
+.slick-paragraphe {
+  width: 20rem;
+  text-align: justify;
+  text-overflow: clip;
+  font-size: 2rem;
+  margin-left: 1rem;
+  color: #7c1f1f;
+  font-weight: bold;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@media screen and (max-width: 805px) {
+  .slick-box {
+    width: 100%;
+  }
+}
